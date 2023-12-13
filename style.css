@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(215, 215, 250);
+}
+
+.titulo-principal{
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: rgb(54, 53, 132);
+}
+.paragrafo{
+    font-size: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.botao{
+    padding-top: 8%;
+    justify-content: space-around;
+}
+.btn{
+    padding: 25px 60px;
+    display: inline;
+    background-color: darkblue;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover{
+    background-color: rgb(180, 173, 230);
+}
+.titulo-popup{
+    padding-top: 5%;
+    color: rgb(54, 53, 132);
+}
+.pas, .pad{
+    padding-top: 2%;
+    color: rgb(54, 53, 132);
+}
+.botao-popup{
+    padding-top: 5%;
+}
+.botao-texto{
+    padding: 5px 6px;
+    background-color: darkblue;
+    display: inline;
+    color:white;
+    transition: background-color 0.5s;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.classificacao{
+    padding-top: 5%;
+}
+.botao-texto:hover{
+    background-color: rgb(180, 173, 230);
+}
+.autoria{
+    padding-top: 25%;
+    align-content: center;
+    color: rgb(54, 53, 132);
+}
